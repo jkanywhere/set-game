@@ -10,13 +10,20 @@ svg(xmlns="http://www.w3.org/2000/svg"
     set:color= color
     set:shape= shape
   defs
+    case color
+      when 'purple'
+        - color_code = '#d499ff'
+      when 'green'
+        - color_code = '#75d23b'
+      when 'red'
+        - color_code = '#ff99d5'
     case fill
       when 'Hatched'
         pattern(id="hatch" width="5" height="3" patternUnits="userSpaceOnUse")
           line(x1="0" y1="0" x2="10" y2="0" stroke-width="2" class='setcolor')
         - fill = 'url(#hatch)'
       when 'Solid'
-        - fill = color
+        - fill = color_code
       when 'Open'
         - fill = 'white'
     case shape
@@ -33,7 +40,7 @@ svg(xmlns="http://www.w3.org/2000/svg"
              ry="35")
     style(type="text/css").
       .setcolor {
-        stroke: #{color};
+        stroke: #{color_code};
         fill: #{fill};
       }
       .setline {

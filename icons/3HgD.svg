@@ -13,7 +13,7 @@
     <polygon class="setcolor setline" id="shape" points="180,30 145,117 180,205 215,117"></polygon>
     <style type="text/css">
       .setcolor {
-        stroke: green;
+        stroke: #75d23b;
         fill: url(#hatch);
       }
       .setline {

@@ -10,8 +10,8 @@
     <polygon class="setcolor setline" id="shape" points="180,30 145,117 180,205 215,117"></polygon>
     <style type="text/css">
       .setcolor {
-        stroke: green;
-        fill: green;
+        stroke: #75d23b;
+        fill: #75d23b;
       }
       .setline {
         stroke-width: 4;

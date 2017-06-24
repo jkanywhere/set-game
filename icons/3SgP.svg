@@ -10,8 +10,8 @@
     <rect class="setcolor setline" id="shape" x="145" y="30" width="70" height="175" ry="35"></rect>
     <style type="text/css">
       .setcolor {
-        stroke: green;
-        fill: green;
+        stroke: #75d23b;
+        fill: #75d23b;
       }
       .setline {
         stroke-width: 4;

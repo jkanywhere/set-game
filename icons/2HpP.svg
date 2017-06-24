@@ -13,7 +13,7 @@
     <rect class="setcolor setline" id="shape" x="145" y="30" width="70" height="175" ry="35"></rect>
     <style type="text/css">
       .setcolor {
-        stroke: purple;
+        stroke: #d499ff;
         fill: url(#hatch);
       }
       .setline {
